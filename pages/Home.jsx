@@ -4,7 +4,7 @@ import './Home.css'
 
 import { Outlet, Link } from "react-router-dom";
 import logo from '../src/assets/logo.svg'
-import Navbar from '../components/navbar';
+import Navbar from '../components/Navbar';
 export default function FoundersForge() {
   
 
