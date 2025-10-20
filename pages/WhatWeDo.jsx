@@ -1,50 +1,51 @@
 import React, { useState } from 'react';
 import { Menu, X, Users, Lightbulb, TrendingUp, Award, MessageSquare, Calendar, HandHeart, Target, Zap, Star, Heart, ArrowRight, CheckCircle } from 'lucide-react';
 import Navbar from '../components/navbar';
+
 const programs = [
   {
     id: 1,
-    title: "Startup Roadmap Workshop",
+    title: "Groundup Roadmap Workshop",
     type: "Our Talks",
-    duration: "60-90 minutes",
-    participants: "20-50 students",
-    description: "A comprehensive guide that takes students through the entire journey of building a startup from scratch, providing practical tools and actionable insights.",
+    duration: "45-60 minutes",
+    participants: "50-1000+ students",
+    description: "A comprehensive guide that takes students through the entire journey of building a changemaking project from scratch, providing practical tools and actionable insights.",
     image: "/api/placeholder/400/300",
     components: [
       "Ideation and opportunity identification techniques",
       "Strategic planning and business model frameworks",
       "Partnership strategies with organizations",
       "Grant applications and funding resources",
-      "Essential toolkit for young founders"
+      "Essential toolkit for young changemakers"
     ],
     impact: "Educational",
-    quote: "This workshop transforms abstract ideas into concrete action plans, giving students the confidence to start their entrepreneurial journey."
+    quote: "This workshop transforms abstract ideas into concrete action plans, giving students the confidence to start their changemaking journey."
   },
   {
     id: 2,
     title: "Founder Panel Discussion",
     type: "Our Talks",
     duration: "45-60 minutes",
-    participants: "30-100 students",
-    description: "Intimate conversations with 4-5 student founders who share their real journeys, challenges, victories, and the driving force behind their ventures.",
+    participants: "50-1000+ students",
+    description: "Close-up conversations with 4-5 student founders who share their real journeys, challenges, victories, and the driving force behind their ventures.",
     image: "/api/placeholder/400/300",
     components: [
       "Authentic founder stories and experiences",
       "Challenges faced and lessons learned",
-      "What drives young entrepreneurs",
+      "What drives young changemakers",
       "Interactive Q&A sessions",
       "Networking opportunities"
     ],
     impact: "Inspirational",
-    quote: "Hearing from peers who've walked the path makes entrepreneurship feel achievable and exciting for every student."
+    quote: "Hearing from peers who've walked the path makes changemaking feel achievable and exciting for every student."
   },
   {
     id: 3,
     title: "Mentorship Programme",
     type: "Other Events",
     duration: "3-6 months",
-    participants: "10-20 students",
-    description: "Connect your students with experienced founders who provide personalized guidance and support throughout their entrepreneurial journey.",
+    participants: "20-40 students",
+    description: "Connect your students with experienced founders who provide personalized guidance and support throughout their changemaking journey - from ideation, to execution, to reflection.",
     image: "/api/placeholder/400/300",
     components: [
       "One-on-one mentor matching process",
@@ -54,11 +55,11 @@ const programs = [
       "Peer networking and collaboration"
     ],
     impact: "Transformational",
-    quote: "The mentorship program turns potential into reality, providing the support system every young entrepreneur needs to succeed."
+    quote: "The mentorship program turns dreams into reality, providing the support system every young changemaker needs to succeed."
   },
   {
     id: 4,
-    title: "Custom Innovation Programs",
+    title: "Customised Programmes",
     type: "Other Events",
     duration: "Flexible",
     participants: "Variable",
@@ -72,7 +73,7 @@ const programs = [
       "Industry-specific focus areas"
     ],
     impact: "Customized",
-    quote: "Every school is unique, and our custom programs ensure maximum relevance and impact for your specific student community."
+    quote: "Every school is unique, and our custom programmes ensure maximum relevance and impact for your specific student community."
   }
 ];
 
@@ -80,22 +81,22 @@ const impactAreas = [
   {
     icon: Target,
     title: "Ideation & Planning",
-    description: "Teaching students how to identify opportunities and develop comprehensive business plans"
+    description: "Teaching students how to identify opportunities and develop comprehensive plans"
   },
   {
     icon: Users,
     title: "Leadership & Teamwork",
-    description: "Building essential soft skills through collaborative entrepreneurial experiences"
+    description: "Understanding how to form a team and how to lead it."
   },
   {
     icon: TrendingUp,
     title: "Growth & Scaling",
-    description: "Providing frameworks for sustainable business growth and impact measurement"
+    description: "Finding both government and non-government support to scale your initiative"
   },
   {
     icon: HandHeart,
     title: "Community Impact",
-    description: "Fostering a culture of changemaking that extends beyond individual success"
+    description: "Fostering a culture of changemaking that emphasises impact on others above oneself"
   }
 ];
 
@@ -103,9 +104,10 @@ export default function WhatWeDo() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [selectedProgram, setSelectedProgram] = useState(null);
 
+  const emailLink = "mailto:hello@foundersforge.com";
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      {/* Navigation */}
       <Navbar />
 
       {/* Hero Section */}
@@ -122,7 +124,7 @@ export default function WhatWeDo() {
             </span>
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            We inspire and empower Singapore's youth through comprehensive talks, mentorship programs, and customized experiences that turn entrepreneurial dreams into reality.
+            We inspire and empower Singapore's youth through comprehensive talks, mentorship programs, and customized experiences that develop your students into young changemakers.
           </p>
           <div className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-500/20 to-pink-500/20 rounded-full px-6 py-3 border border-orange-400/30">
             <Target className="text-orange-400" size={20} />
@@ -137,7 +139,7 @@ export default function WhatWeDo() {
           <div className="text-center mb-16">
             <h3 className="text-4xl font-bold text-white mb-4">Our Impact Areas</h3>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Every program is designed to foster key entrepreneurial skills and mindsets that create lasting change:
+              Every program is designed to develop key skills and mindsets that are crucial in developing ground-up initiatives.
             </p>
           </div>
           
@@ -164,7 +166,7 @@ export default function WhatWeDo() {
           </div>
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
             <p className="text-xl text-gray-300 leading-relaxed mb-6">
-              We believe every program should be <span className="text-orange-400 font-semibold">tailored to your school's unique needs</span>. Whether you want to focus on event planning, leadership development, or specific industries, we customize our approach to maximize relevance and impact.
+              We believe every program should be <span className="text-orange-400 font-semibold">tailored to your school's unique needs</span>. Whether you want to focus on event planning, leadership development, or specific types of projects, we customize our approach to maximize relevance and impact.
             </p>
             <div className="text-2xl font-bold text-white">
               Ready to inspire your students? Let's create something amazing together! 🚀
@@ -205,7 +207,7 @@ export default function WhatWeDo() {
                   <p className="text-orange-400 font-semibold mb-2">{program.duration} • {program.participants}</p>
                   <p className="text-gray-300 text-sm line-clamp-3">{program.description}</p>
                   <div className="mt-4 flex items-center text-orange-400 text-sm font-medium">
-                    <span>Learn more</span>
+                    <a href={emailLink}>Learn more</a>
                     <ArrowRight size={16} className="ml-1 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
@@ -252,17 +254,6 @@ export default function WhatWeDo() {
                         <div className="text-white">{selectedProgram.participants}</div>
                       </div>
                     </div>
-                    <div>
-                      <h4 className="text-white font-semibold mb-2">What's Included</h4>
-                      <ul className="space-y-1">
-                        {selectedProgram.components.map((component, index) => (
-                          <li key={index} className="text-gray-300 text-sm flex items-start gap-2">
-                            <CheckCircle size={14} className="text-orange-400 mt-0.5 flex-shrink-0" />
-                            <span>{component}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
                   </div>
                 </div>
                 
@@ -281,12 +272,12 @@ export default function WhatWeDo() {
                     </div>
                     
                     <div className="flex gap-4">
-                      <button className="flex-1 bg-gradient-to-r from-orange-500 to-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:from-orange-600 hover:to-pink-600 transition-all">
+                      <a href={emailLink} className="flex-1 bg-gradient-to-r from-orange-500 to-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:from-orange-600 hover:to-pink-600 transition-all text-center">
                         Book This Program
-                      </button>
-                      <button className="flex-1 border border-white/30 text-white px-6 py-3 rounded-full font-semibold hover:bg-white/10 transition-all">
-                        Get Custom Quote
-                      </button>
+                      </a>
+                      <a href={emailLink} className="flex-1 border border-white/30 text-white px-6 py-3 rounded-full font-semibold hover:bg-white/10 transition-all text-center">
+                        Find Out More
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -301,16 +292,16 @@ export default function WhatWeDo() {
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-4xl font-bold text-white mb-6">Ready to Transform Your Students?</h3>
           <p className="text-xl text-gray-300 mb-8">
-            Let's work together to create an inspiring experience that ignites entrepreneurial passion in your school community.
+            Let's work together to create an inspiring experience that ignites a culture of changemaking in your school community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-orange-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg">
+            <a href={emailLink} className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-orange-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg inline-flex items-center justify-center">
               Book a Program
               <ArrowRight className="inline ml-2" size={20} />
-            </button>
-            <button className="border border-white/30 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/10 transition-all">
+            </a>
+            <a href={emailLink} className="border border-white/30 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/10 transition-all inline-flex items-center justify-center">
               Schedule Consultation
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -339,7 +330,7 @@ export default function WhatWeDo() {
             <div>
               <h5 className="text-white font-semibold mb-4">Schools</h5>
               <ul className="space-y-2 text-gray-300">
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Book a Session</a></li>
+                <li><a href={emailLink} className="hover:text-orange-400 transition-colors">Book a Session</a></li>
                 <li><a href="#" className="hover:text-orange-400 transition-colors">Pricing</a></li>
                 <li><a href="#" className="hover:text-orange-400 transition-colors">Testimonials</a></li>
                 <li><a href="#" className="hover:text-orange-400 transition-colors">Case Studies</a></li>
@@ -351,7 +342,7 @@ export default function WhatWeDo() {
                 <li><a href="#" className="hover:text-orange-400 transition-colors">LinkedIn</a></li>
                 <li><a href="#" className="hover:text-orange-400 transition-colors">Instagram</a></li>
                 <li><a href="#" className="hover:text-orange-400 transition-colors">Newsletter</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Contact Us</a></li>
+                <li><a href={emailLink} className="hover:text-orange-400 transition-colors">Contact Us</a></li>
               </ul>
             </div>
           </div>
