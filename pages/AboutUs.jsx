@@ -187,37 +187,11 @@ const AboutUs = () => {
                 Empowering young changemakers to build a better tomorrow.
               </p>
             </div>
-            <div>
-              <h5 className="text-white font-semibold mb-4">About</h5>
-              <ul className="space-y-2 text-gray-300">
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Our Story</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Mission</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Vision</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Impact</a></li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="text-white font-semibold mb-4">Programs</h5>
-              <ul className="space-y-2 text-gray-300">
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Youth Leadership</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Project Mentorship</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Community Building</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Workshops</a></li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="text-white font-semibold mb-4">Connect</h5>
-              <ul className="space-y-2 text-gray-300">
-                <li><a href="#" className="hover:text-orange-400 transition-colors">LinkedIn</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Instagram</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Newsletter</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Contact Us</a></li>
-              </ul>
-            </div>
+            
           </div>
           <div className="border-t border-white/10 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Founder's Forge. All rights reserved.</p>
-            <p>Powered by Anders Choo Technologies</p>
+            
           </div>
         </div>
       </footer>

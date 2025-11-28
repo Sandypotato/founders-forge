@@ -21,10 +21,13 @@ export default function FoundersForge() {
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
               If you’re interested to inspire a lasting culture of changemaking in your school,</p>
             <div className="flex flex-col sm:flex-row gap-5 justify-center">
-              <button className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-orange-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg">
-                Click Here
-                <ChevronRight className="inline ml-2" size={20} />
-              </button>
+              <a
+      href="/aboutus"  // <-- Updated link
+      className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-orange-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg inline-flex items-center justify-center"
+    >
+      Click Here
+      <ChevronRight className="inline ml-2" size={20} />
+    </a>
             </div>
           </div>
         </div>
@@ -124,7 +127,7 @@ export default function FoundersForge() {
           Founder's Forge
         </h4>
         <p className="text-gray-300">
-          Empowering entrepreneurs to build the future, one startup at a time.
+          Empowering changemakers to improve the future, one project at a time.
         </p>
       </div>
 

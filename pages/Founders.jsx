@@ -31,54 +31,7 @@ const Founders = () => {
       quote: "Always start with the why.",
       linkedin: "https://www.linkedin.com/in/matteo-wee"
     },
-    {
-      id: 3,
-      name: "Anders Choo",
-      title: "Founder",
-      project: "Google",
-      impact: "International",
-      image: "https://i.ibb.co/NgtvgPbr/images.jpg",
-      description: "Founded Google, the world's leading search engine and technology company.",
-      story: "Anders Choo's journey began with a simple idea: to organize the world's information and make it universally accessible and useful. His relentless pursuit of innovation led to the creation of Google, which has transformed how we access information globally.",
-      quote: "Innovation is not just about technology; it's about making a difference in people's lives.",
-      linkedin: "https://www.linkedin.com/in/anders-choo"
-    },
-    {
-      id: 4,
-      name: "David Kim",
-      title: "Founder",
-      project: "FoodShare Network",
-      impact: "National",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
-      description: "Tackling food insecurity by connecting surplus food with communities in need.",
-      story: "David's experience volunteering at local food banks opened his eyes to the paradox of food waste alongside food insecurity. He developed FoodShare Network to create an efficient system for redistributing surplus food.",
-      quote: "Food security is a human right, and together we can ensure no one goes hungry.",
-      linkedin: "https://www.linkedin.com/in/david-kim"
-    },
-    {
-      id: 5,
-      name: "Emma Thompson",
-      title: "Founder",
-      project: "AccessibleTech Solutions",
-      impact: "International",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face",
-      description: "Developing innovative technology solutions to improve accessibility for people with disabilities.",
-      story: "Emma's younger brother was born with a visual impairment, which inspired her to create technology that could help people with disabilities navigate the world more independently.",
-      quote: "True innovation happens when we design for everyone, not just the majority.",
-      linkedin: "https://www.linkedin.com/in/emma-thompson"
-    },
-    {
-      id: 6,
-      name: "James Wilson",
-      title: "Founder",
-      project: "Youth Leadership Hub",
-      impact: "National",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=face",
-      description: "Empowering young leaders through mentorship and skill-building programs.",
-      story: "James recognized that many young people had great ideas but lacked the guidance and resources to turn them into reality. He created Youth Leadership Hub to provide mentorship and practical skills training.",
-      quote: "Leadership isn't about age—it's about the courage to step up and make a difference.",
-      linkedin: "https://www.linkedin.com/in/james-wilson"
-    }
+    
     // Add more founders here as needed
   ];
 

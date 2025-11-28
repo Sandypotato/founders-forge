@@ -286,6 +286,50 @@ export default function WhatWeDo() {
           </div>
         </div>
       )}
+{/* Testimonials Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-black/20 backdrop-blur-sm">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-500/20 to-pink-500/20 rounded-full px-6 py-3 mb-6 border border-orange-400/30">
+              <Star className="text-orange-400" size={20} />
+              <span className="text-orange-400 font-medium">Our Testimonials</span>
+            </div>
+            <h3 className="text-4xl font-bold text-white mb-4">Our Testimonials</h3>
+            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+              Our programmes are well received by students and teachers
+            </p>
+          </div>
+
+          {/* Images */}
+          <div className="grid md:grid-cols-2 gap-6 mb-12">
+            <div className="aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-orange-500/20 to-pink-500/20 border border-white/10">
+              <img src="https://i.ibb.co/DDFLsRhb/DSC03104-1.jpg" alt="Testimonial 1" className="w-full h-full object-cover" />
+            </div>
+            <div className="aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-white/10">
+              <img src="https://i.ibb.co/KzNxdVZR/Whats-App-Image-2025-11-18-at-10-33-12-PM.jpg" alt="Testimonial 2" className="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          {/* Quote Box */}
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 relative">
+              <div className="absolute -top-4 left-8 w-12 h-12 bg-gradient-to-r from-orange-400 to-pink-400 rounded-full flex items-center justify-center">
+                <MessageSquare className="text-white" size={24} />
+              </div>
+              <blockquote className="text-lg text-gray-300 leading-relaxed mb-4 pt-4">
+                "Three speakers from Founders' Forge shared their journeys initiating and scaling up their efforts as changemakers during RGS's Community and Makers' Fair 2025. They were engaging and able to draw general principles which were transferable across different domains. This session encouraged participating students to design projects for their target audiences and sustain ongoing projects."
+              </blockquote>
+              <div className="flex items-center gap-3">
+                <div className="w-1 h-12 bg-gradient-to-b from-orange-400 to-pink-400 rounded-full"></div>
+                <div>
+                  <p className="text-white font-semibold">Mr Tok Wei Sin</p>
+                  <p className="text-orange-400">Raffles Girls' School</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
@@ -318,37 +362,11 @@ export default function WhatWeDo() {
                 Inspiring the next generation of changemakers.
               </p>
             </div>
-            <div>
-              <h5 className="text-white font-semibold mb-4">Programs</h5>
-              <ul className="space-y-2 text-gray-300">
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Our Talks</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Mentorship</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Custom Programs</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Workshops</a></li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="text-white font-semibold mb-4">Schools</h5>
-              <ul className="space-y-2 text-gray-300">
-                <li><a href={emailLink} className="hover:text-orange-400 transition-colors">Book a Session</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Pricing</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Testimonials</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Case Studies</a></li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="text-white font-semibold mb-4">Connect</h5>
-              <ul className="space-y-2 text-gray-300">
-                <li><a href="#" className="hover:text-orange-400 transition-colors">LinkedIn</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Instagram</a></li>
-                <li><a href="#" className="hover:text-orange-400 transition-colors">Newsletter</a></li>
-                <li><a href={emailLink} className="hover:text-orange-400 transition-colors">Contact Us</a></li>
-              </ul>
-            </div>
+            
           </div>
           <div className="border-t border-white/10 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Founder's Forge. All rights reserved.</p>
-            <p>Powered by Anders Choo Technologies</p>
+            
           </div>
         </div>
       </footer>
