@@ -51,7 +51,7 @@ const Founders = () => {
   impact: "National",
   image: "https://i.ibb.co/LbJSR6F/unnamed-1.jpg", // Add image URL here
   description: "The 2 academies, well-known for exceptional curriculum, have grown to over 100 students and over 10 teachers, with our dedicated teachers providing high quality language learning to students pursuing the language for interest, education, and business.",
-  story: "",
+  story: "The 2 academies, well-known for exceptional curriculum, have grown to over 100 students and over 10 teachers, with our dedicated teachers providing high quality language learning to students pursuing the language for interest, education, and business.",
   quote: "What you believe is powerful. Believe you are destined to reign!",
   linkedin: "" // Add LinkedIn URL here if available
 },{
@@ -62,7 +62,7 @@ const Founders = () => {
   impact: "National",
   image: "https://i.ibb.co/twFnMDmQ/unnamed-2.jpg", // Add image URL here
   description: "Founded Bedok View Secondary School Alumni (Youth Wing), Project Elderlive under NYC YAC Season 3, and Asia AI Association (Youth Wing).",
-  story: "",
+  story: "Founded Bedok View Secondary School Alumni (Youth Wing), Project Elderlive under NYC YAC Season 3, and Asia AI Association (Youth Wing).",
   quote: "Singapore can never progress if our people couldn't think.",
   linkedin: "" // Add LinkedIn URL here if available
 },{
@@ -235,18 +235,7 @@ const Founders = () => {
                     </div>
                     
                     <div className="flex gap-4">
-                      {selectedFounder.linkedin ? (
-                        <a href={selectedFounder.linkedin} target="_blank" rel="noopener noreferrer" className="flex-1 bg-gradient-to-r from-orange-500 to-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:from-orange-600 hover:to-pink-600 transition-all text-center">
-                          Connect
-                        </a>
-                      ) : (
-                        <button className="flex-1 bg-gradient-to-r from-orange-500 to-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:from-orange-600 hover:to-pink-600 transition-all">
-                          Connect
-                        </button>
-                      )}
-                      <button className="flex-1 border border-white/30 text-white px-6 py-3 rounded-full font-semibold hover:bg-white/10 transition-all">
-                        Learn More
-                      </button>
+                      
                     </div>
                   </div>
                 </div>
