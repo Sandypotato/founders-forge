@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Users, Lightbulb, TrendingUp, Award, MessageSquare, Calendar, HandHeart, Target, Zap, Star, Heart, ArrowRight, CheckCircle } from 'lucide-react';
-import Navbar from '../components/navbar.jsx';
+import Navbar from '../components/Navbar.jsx';
 
 const programs = [
   {
