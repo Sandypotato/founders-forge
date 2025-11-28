@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Heart, Globe, Mic, Star, ArrowRight, ChevronLeft, ChevronRight, Users, Sparkles } from 'lucide-react';
-import Navbar from '../components/navbar';
+import Navbar from '../components/Navbar.jsx';
 
 const Founders = () => {
   const [selectedFounder, setSelectedFounder] = useState(null);
