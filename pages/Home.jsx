@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Menu, X, ChevronRight, Users, Lightbulb, TrendingUp, Award } from 'lucide-react';
 import Navbar from '../components/navbar';
 
+import { Link } from 'react-router-dom'
 export default function FoundersForge() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
@@ -21,13 +22,13 @@ export default function FoundersForge() {
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
               If you’re interested to inspire a lasting culture of changemaking in your school,</p>
             <div className="flex flex-col sm:flex-row gap-5 justify-center">
-              <a
-      href="/aboutus"  // <-- Updated link
+              <Link
+      to="/aboutus"  // <-- Updated link
       className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-orange-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg inline-flex items-center justify-center"
     >
       Click Here
       <ChevronRight className="inline ml-2" size={20} />
-    </a>
+    </Link>
             </div>
           </div>
         </div>
@@ -44,13 +45,13 @@ export default function FoundersForge() {
     <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
       We’re happy you’re interested. To learn more:
     </p>
-    <a
-      href="/aboutus"  // <-- Updated link
+    <Link
+      to="/aboutus"  // <-- Updated link
       className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-orange-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg inline-flex items-center justify-center"
     >
       Click Here
       <ChevronRight className="inline ml-2" size={20} />
-    </a>
+    </Link>
   </div>
 </section>
 
@@ -132,33 +133,8 @@ export default function FoundersForge() {
       </div>
 
       {/* Navigation Links */}
-      <div>
-        <h5 className="text-white font-semibold mb-4">Home</h5>
-        <ul className="space-y-2 text-gray-300">
-          <li><a href="#home" className="hover:text-orange-400 transition-colors">Go to Home</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h5 className="text-white font-semibold mb-4">About</h5>
-        <ul className="space-y-2 text-gray-300">
-          <li><a href="#about" className="hover:text-orange-400 transition-colors">Learn More</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h5 className="text-white font-semibold mb-4">Founders</h5>
-        <ul className="space-y-2 text-gray-300">
-          <li><a href="#founders" className="hover:text-orange-400 transition-colors">Meet the Founders</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h5 className="text-white font-semibold mb-4">What We Do</h5>
-        <ul className="space-y-2 text-gray-300">
-          <li><a href="#whatwedo" className="hover:text-orange-400 transition-colors">Our Work</a></li>
-        </ul>
-      </div>
+      
+      
 
       <div>
         <h5 className="text-white font-semibold mb-4">Contact Us</h5>

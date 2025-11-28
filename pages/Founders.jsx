@@ -31,7 +31,52 @@ const Founders = () => {
       quote: "Always start with the why.",
       linkedin: "https://www.linkedin.com/in/matteo-wee"
     },
-    
+    {
+  id: 3,
+  name: "Xie Ning Xin",
+  title: "Co-Founder",
+  project: "HOO and StartUP Youths",
+  impact: "National",
+  image: "https://i.ibb.co/JwCKzfxC/unnamed.jpg", // Add image URL here
+  description: "Co-founded StartUP Youths, a national student entrepreneurship network connecting people and ideas. Till date, StartUP Youths connects more than 150 youths to like-minded peers and inspiring mentors, accelerating their startup journey and empowering teens across Singapore to make a meaningful change.",
+  story: "At the same time, she co-founded startup HOO which has secured almost 70k in funding thus far from public and private organisations.",
+  quote: "Believe in yourself and the world will believe in you!",
+  linkedin: "" // Add LinkedIn URL here if available
+},
+    {
+  id: 4,
+  name: "Nicholas Koh",
+  title: "Founder",
+  project: "Nami Japanese Academy",
+  impact: "National",
+  image: "https://i.ibb.co/LbJSR6F/unnamed-1.jpg", // Add image URL here
+  description: "The 2 academies, well-known for exceptional curriculum, have grown to over 100 students and over 10 teachers, with our dedicated teachers providing high quality language learning to students pursuing the language for interest, education, and business.",
+  story: "",
+  quote: "What you believe is powerful. Believe you are destined to reign!",
+  linkedin: "" // Add LinkedIn URL here if available
+},{
+  id: 5,
+  name: "Kee Zhen Xian",
+  title: "Founder",
+  project: "Youth Empowerment Association Singapore and Leo Club Legacy Singapore",
+  impact: "National",
+  image: "https://i.ibb.co/twFnMDmQ/unnamed-2.jpg", // Add image URL here
+  description: "Founded Bedok View Secondary School Alumni (Youth Wing), Project Elderlive under NYC YAC Season 3, and Asia AI Association (Youth Wing).",
+  story: "",
+  quote: "Singapore can never progress if our people couldn't think.",
+  linkedin: "" // Add LinkedIn URL here if available
+},{
+  id: 6,
+  name: "Raymond Loong Ng",
+  title: "Founder",
+  project: "Singapore Youth AI, Resumify, and Neural Drive",
+  impact: "National",
+  image: "https://i.ibb.co/LfyKGV7/unnamed-3.jpg", // Add image URL here
+  description: "Founded Singapore Youth AI, Singapore's largest youth AI community with 400+ members. Created Resumify, an AI employment platform helping ex-offenders and persons with disabilities find jobs. Built Neural Drive, developing thought-controlled applications and neural interfaces for people with muscle degenerative disorders.",
+  story: "Across all ventures, Raymond has achieved 19 international and national competition wins and raised over $105K in funding, demonstrating his commitment to leveraging technology for social impact and accessibility.",
+  quote: "Build the change you want to see.",
+  linkedin: "" // Add LinkedIn URL here if available
+}
     // Add more founders here as needed
   ];
 
