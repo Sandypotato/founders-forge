@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Heart, Users, Lightbulb, Target, ArrowRight, Sparkles } from 'lucide-react';
-import Navbar from '../components/navbar';
+import Navbar from '../components/Navbar.jsx';
 
 const AboutUs = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
